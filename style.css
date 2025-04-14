@@ -1,0 +1,22 @@
+body *{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    
+}
+header{
+    border-color: green;
+}
+.cont-titulo-redes{
+    border-color: red;
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-areas: " titulo nav .";
+}
+h1{
+    grid-area: titulo;
+}
+.cont-menu-redes{
+    grid-area: nav;
+}
