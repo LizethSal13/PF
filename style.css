@@ -1,22 +1,42 @@
-body *{
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid blue;
-    
-}
-header{
-    border-color: green;
-}
 .cont-titulo-redes{
-    border-color: red;
     display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-areas: " titulo nav .";
+    grid-template-rows: 200px;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-areas: " . titulo nav"; 
+    align-items: center;
+    padding: 0px 150px;
 }
 h1{
     grid-area: titulo;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
 }
 .cont-menu-redes{
     grid-area: nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.iconos{
+    margin: 0px 5px;
+    color: blue;
+    font-size: 25px;
+}
+.menu-principal{
+    background-color: rgba(172, 140, 140, 0.658);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cuadro{
+    width: 300px;
+    height: 40px;
+}
+.boton{
+    width: 50px;
+    height: 40px;
 }
