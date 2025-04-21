@@ -40,3 +40,28 @@ h1{
     width: 50px;
     height: 40px;
 }
+.secfondo{
+    background-image: url(portada.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.creando{
+    margin: 0px;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.vivir{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
